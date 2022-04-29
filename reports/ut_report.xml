@@ -1,7 +1,12 @@
 <testExecutions version="1">
   <file path="src/app/app.component.spec.ts">
-    <testCase name="AppComponent should have as title 'base-project'" duration="118"/>
-    <testCase name="AppComponent should create the app" duration="14"/>
-    <testCase name="AppComponent should render title" duration="13"/>
+    <testCase name="AppComponent should create the app" duration="36"/>
+  </file>
+  <file path="src/app/plant/plant.service.spec.ts">
+    <testCase name="PlantService should be created" duration="4"/>
+  </file>
+  <file path="src/app/plant/plant-list/plant-list.component.spec.ts">
+    <testCase name="PlantListComponent should has 4 number of rows table" duration="22"/>
+    <testCase name="PlantListComponent should create" duration="5"/>
   </file>
 </testExecutions>
