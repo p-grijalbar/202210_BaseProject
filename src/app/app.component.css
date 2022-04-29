@@ -1,3 +1,7 @@
 * [lang^=en] {
   color: green;
 }
+
+.title {
+  font-family: Kaisei Decol, serif;
+}
